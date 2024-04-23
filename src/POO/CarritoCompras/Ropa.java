@@ -3,7 +3,7 @@ package POO.CarritoCompras;
 public  class Ropa extends Producto {
 
     final String[] Talles= {"S","M","L","XL"};
-    String talle
+    String talle;
 
     public Ropa(String nombre, double precioBase) {
         super(nombre, precioBase);
@@ -11,9 +11,7 @@ public  class Ropa extends Producto {
 
     @Override
     public double calcularPrecio(Producto producto, String t) {
-        for(t : Talles){
 
-        }
         return precioBase;
     }
 }
