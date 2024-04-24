@@ -2,7 +2,7 @@ package POO.CarritoCompras;
 
 public class ClientePremium implements Cliente{
     @Override
-    public void realizarCompra() {
-
+    public boolean esPremium() {
+        return true;
     }
 }
